@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <h1>hello</h1>
+  <div id="app" style="height:100%">
+    <router-view></router-view>
   </div>
 </template>
 
@@ -16,4 +16,5 @@ export default {
 </script>
 
 <style>
+@import './assets/css/base.css';
 </style>
